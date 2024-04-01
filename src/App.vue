@@ -1,26 +1,15 @@
 <script setup>
 import Header from "./components/Header.vue";
-import { ref } from "vue";
-const count = ref(0);
+import CardList from "./components/CardList.vue";
+//import { ref } from "vue";
 </script>
 
 <template>
-  <div class="bg-white w-4/5 m-auto h-screen rounded-xl drop-shadow-xl mt-14">
+  <div class="bg-white w-4/5 m-auto rounded-xl drop-shadow-xl mt-14">
     <Header />
-
-    <div>
-      <div>
-        <img src="/unliked.svg" alt="Like" />
-        <img src="/sneakers/1.jpg" alt="sneakers" />
-        <p>Мужские Кроссовки Nike Blazer Mid Suede</p>
-        <div class="flex justify-between">
-          <div>
-            <span>Цeна:</span>
-            <span>12 999 руб.</span>
-          </div>
-          <img src="/plus.svg" alt="Add" />
-        </div>
-      </div>
+    <div class="p-10">
+      <h2 class="text-3xl font-bold mb-8">Все кроссовки</h2>
+      <CardList />
     </div>
   </div>
 </template>
