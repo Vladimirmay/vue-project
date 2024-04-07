@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps({
+defineProps({
   id: Number,
   title: String,
   imageUrl: String,
@@ -16,6 +16,7 @@ const props = defineProps({
     class="relative border border-slate-100 rounded-3xl p-8 cursor-pointer hover:-translate-y-2 hover:shadow-xl transition bg-white"
   >
     <img
+      v-if="onClickFavorite"
       @click="onClickFavorite"
       :src="isFavorite ? '/liked.svg' : '/unliked.svg'"
       alt="Like"
@@ -30,6 +31,7 @@ const props = defineProps({
         <span>{{ price }} руб.</span>
       </div>
       <img
+        v-if="onClickAdd"
         @click="onClickAdd"
         :src="!isAdded ? '/plus.svg' : '/btn-checked.svg'"
         alt="Add"
