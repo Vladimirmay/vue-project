@@ -1,5 +1,6 @@
 <script setup>
-defineProps({
+const props = defineProps({
+  id: Number,
   title: String,
   imageUrl: String,
   price: Number,
@@ -12,7 +13,7 @@ defineProps({
 
 <template>
   <div
-    class="relative border border-slate-100 rounded-3xl w-60 p-8 cursor-pointer m-10 hover:-translate-y-2 hover:shadow-xl transition bg-white"
+    class="relative border border-slate-100 rounded-3xl p-8 cursor-pointer hover:-translate-y-2 hover:shadow-xl transition bg-white"
   >
     <img
       @click="onClickFavorite"
@@ -32,6 +33,7 @@ defineProps({
         @click="onClickAdd"
         :src="!isAdded ? '/plus.svg' : '/btn-checked.svg'"
         alt="Add"
+        class="flex items-center"
       />
     </div>
   </div>
