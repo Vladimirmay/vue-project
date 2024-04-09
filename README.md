@@ -1,16 +1,22 @@
-# vue-project
+# vue-sneakers-project
+Данный проект является аналогом интернет магазина кросовок.
 
-This template should help get you started developing with Vue 3 in Vite.
+Вне реализована фильтрация,поиск и маршрутизация.
 
-## Recommended IDE Setup
+Этот шаблон должен помочь вам начать разработку с помощью Vue 3 в Vite.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Технологии
+![React]
 
-## Customize configuration
+## Рекомендуемая настройка IDE
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (и отключить Vetur).
 
-## Project Setup
+## Запуск проекта
+
+1. Склонировать проект на ваш компьютер с [Github](https://github.com/FilimonovAlexey/movies-explorer-frontend/tree/level-3) с помощью команды:
+
+
 
 ```sh
 npm install
