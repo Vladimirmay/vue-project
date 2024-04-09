@@ -1,12 +1,9 @@
 # vue-sneakers-project
 Данный проект является аналогом интернет магазина кросовок.
 
-Вне реализована фильтрация,поиск и маршрутизация.
+Реализован функционал фильтрации,поиска и маршрутизации.Так же добавлена анимации, по средствам auto-animate.
 
 Этот шаблон должен помочь вам начать разработку с помощью Vue 3 в Vite.
-
-## Технологии
-![React]
 
 ## Рекомендуемая настройка IDE
 
@@ -17,7 +14,7 @@
 1. Склонировать проект на ваш компьютер с [Github](https://github.com/Vladimirmay/vue-project) с помощью команды:
 
 ```
-git clone git@github.com:FilimonovAlexey/movies-explorer-frontend.git
+git clone https://github.com/Vladimirmay/vue-project.git
 ```
 2. Установить зависимости:
 
