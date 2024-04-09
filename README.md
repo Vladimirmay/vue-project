@@ -14,22 +14,19 @@
 
 ## Запуск проекта
 
-1. Склонировать проект на ваш компьютер с [Github](https://github.com/FilimonovAlexey/movies-explorer-frontend/tree/level-3) с помощью команды:
+1. Склонировать проект на ваш компьютер с [Github](https://github.com/Vladimirmay/vue-project) с помощью команды:
 
-
+```
+git clone git@github.com:FilimonovAlexey/movies-explorer-frontend.git
+```
+2. Установить зависимости:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+3. Запустить проект:
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
